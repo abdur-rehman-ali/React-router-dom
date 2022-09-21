@@ -1,9 +1,11 @@
 import './App.css';
+import { Navigation } from './shared/Navigation';
+
 
 function App() {
   return (
     <div className='App'>
-      <h2>Hello</h2>
+      <Navigation/>
     </div>
   )
 }
