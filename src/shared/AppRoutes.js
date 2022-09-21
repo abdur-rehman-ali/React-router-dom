@@ -5,6 +5,7 @@ import { NewProducts } from '../components/Products/NewProducts'
 import { Products } from '../components/Products/Products'
 import { About } from '../components/shared/About'
 import { Home } from '../components/shared/Home'
+import { PageNotFound } from './PageNotFound'
 
 
 export const AppRoutes = () => {
@@ -16,6 +17,7 @@ export const AppRoutes = () => {
         <Route path='new' element={<NewProducts />} />
         <Route path='featured' element={<FeaturedProducts />} />
       </Route>
+      <Route path='*' element={<PageNotFound />} />
     </Routes>
   )
 }
