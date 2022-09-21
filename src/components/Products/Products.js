@@ -11,11 +11,11 @@ export const Products = () => {
 
       <h1>List of all products</h1>
       <ul>
-        <li>Product 1
-          <Link to={`/products/1`}>Detail</Link>
+        <li>
+          <Link to={`/products/1`}>Product 1</Link>
         </li>
-        <li>Product 2
-          <Link to={`/products/2`}>Detail</Link>
+        <li>
+          <Link to={`/products/2`}>Product 1</Link>
         </li>
       </ul>
       <nav>
